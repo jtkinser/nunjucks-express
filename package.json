@@ -1,0 +1,19 @@
+{
+  "name": "nunjucks-express",
+  "version": "1.0.0",
+  "description": "Simple app to show how you setup express and nunjucks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "nodemon index.js --debug"
+  },
+  "author": "Corban Baxter <corbanb@gmail.com> (http://barbershop.io)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "nunjucks": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
